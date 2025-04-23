@@ -28,8 +28,8 @@ Here is a link to my repository: {}
 #| include: false
 #| eval: true
 
-library(here)
-load(here("submission1", "results", "hwk5_workspace.RData"))
+getwd()
+load("/Users/camilacastaneda/Downloads/Econ-470/homework5/submission1/results/homework5_workspace.Rdata")
 ```
 
 
@@ -43,7 +43,7 @@ load(here("submission1", "results", "hwk5_workspace.RData"))
 #| echo: false
 #| label: fig-dir-share
 
-print(direct.share.plt)
+print(direct.purchase.plot)
 ```
 
 
@@ -64,7 +64,7 @@ answer here
 #| echo: false
 #| label: fig-med-share
 
-print(medicaid.share.plt)
+print(medicaid.share.plot)
 ```
 
 
